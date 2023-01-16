@@ -1,4 +1,4 @@
-// Iteración #1: Mix for e includes
+// Iteración #1: Mix for e includes  --------- NO ESTÁ BIEN DEL TODO, PREGUNTAR COMO PODER MEJORARLO
 
 const movies = [
     {title: 'Madaraspar', duration: 192, categories: ['comedia', 'aventura']},
@@ -7,4 +7,20 @@ const movies = [
     {title: 'El gato con guantes', duration: 111, categories: ['comedia', 'aventura', 'animación']},
 ]
 
-console.log(const)
+const categoriesFunction = () => {
+    let moviesCategories = [];
+
+    for (const movie of movies) {
+        for (const categorie of movie.categories) {
+        
+            if(moviesCategories.includes(categorie)) {
+            
+            } else {
+            moviesCategories.push(categorie)
+            }
+        }
+    }   
+    return moviesCategories;
+}
+console.log(categoriesFunction());
+
