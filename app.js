@@ -117,3 +117,14 @@ for (const user1 of users1) {
     }
 }
 console.log(contFavoritesSounds)
+
+
+// Iteración #4: Métodos findArrayIndex   ------- NO ME SALE
+
+function findArrayIndex(array, text) {
+    
+}
+console.log(findArrayIndex(['Caracol', 'Mosquito', 'Salamandra', 'Ajolote'], "Mosquito"))
+
+
+
