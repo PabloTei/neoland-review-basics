@@ -121,10 +121,11 @@ console.log(contFavoritesSounds)
 
 // Iteración #4: Métodos findArrayIndex   ------- NO ME SALE
 
-function findArrayIndex(array, text) {
+function findArrayIndex([array], text) {
+   return array.indexOf(text);
     
 }
 console.log(findArrayIndex(['Caracol', 'Mosquito', 'Salamandra', 'Ajolote'], "Mosquito"))
 
-
+// Iteración #5: Función rollDice
 
